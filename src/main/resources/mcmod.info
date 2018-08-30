@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cc",
+  "name": "Combo Counter",
+  "description": "Counts the number of hits you get before you get hit yourself. Useful in PvP. Combo Counter resets after 5 seconds without registering hits. Use /ccenable to enable the mod, and /ccdisable to disable the mod.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["thepowersss"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

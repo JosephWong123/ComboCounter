@@ -1,0 +1,498 @@
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "com/thepowersss/ComboCounter/client/commands/CommandDisable.java" md5: 2bd2090b6a40923df1f915e43d794c4c
+@|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|8|52|com.thepowersss.ComboCounter.client.commands|package|com.thepowersss.ComboCounter.client.commands|(file)
+Class Start: com.thepowersss.ComboCounter.client.commands.CommandDisable
+   @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|566|580|CommandDisable|class|com.thepowersss.ComboCounter.client.commands.CommandDisable
+   @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|592|600|ICommand|class|net.minecraft.command.ICommand
+   @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|626|632|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|621|625|List|class|java.util.List
+   @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|621|625|List|class|java.util.List
+   @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|626|632|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|634|641|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandDisable|aliases|
+   Method Start: CommandDisable()V
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|655|669|CommandDisable|method|com.thepowersss.ComboCounter.client.commands.CommandDisable|CommandDisable|()V
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|683|690|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandDisable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|697|706|ArrayList|class|java.util.ArrayList
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|720|727|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandDisable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|728|731|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|754|761|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandDisable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|762|765|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|784|791|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandDisable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|792|795|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: CommandDisable()V
+   Method Start: getName()Ljava/lang/String;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|815|823|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|835|841|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|842|849|getName|method|net.minecraft.command.ICommand|getName|()Ljava/lang/String;
+   Method End: getName()Ljava/lang/String;
+   Method Start: getUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|945|951|sender|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|getUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|894|902|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|914|920|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|921|929|getUsage|method|net.minecraft.command.ICommand|getUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|930|944|ICommandSender|class|net.minecraft.command.ICommandSender
+   Method End: getUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getAliases()Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|995|1003|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1015|1019|List|class|java.util.List
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1020|1026|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1028|1038|getAliases|method|net.minecraft.command.ICommand|getAliases|()Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1058|1065|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandDisable|aliases
+   Method End: getAliases()Ljava/util/List;
+   Method Start: execute(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1128|1134|server|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|server|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1151|1157|sender|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1168|1172|args|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|2
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1079|1087|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1104|1111|execute|method|net.minecraft.command.ICommand|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1112|1127|MinecraftServer|class|net.minecraft.server.MinecraftServer
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1136|1150|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1159|1165|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1181|1197|CommandException|class|net.minecraft.command.CommandException
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1208|1222|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1223|1232|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1233|1243|unregister|method|net.minecraftforge.fml.common.eventhandler.EventBus|unregister|(Ljava/lang/Object;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1244|1256|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1257|1264|HANDLER|field|com.thepowersss.ComboCounter.tab.ComboCounter|HANDLER
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1275|1284|Minecraft|class|net.minecraft.client.Minecraft
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1285|1297|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1300|1306|player|field|net.minecraft.client.Minecraft|player
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1307|1318|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1323|1342|TextComponentString|class|net.minecraft.util.text.TextComponentString
+   Method End: execute(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: checkPermission(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1444|1450|server|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|checkPermission|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z|server|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1467|1473|sender|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|checkPermission|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z|sender|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1384|1392|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1412|1427|checkPermission|method|net.minecraft.command.ICommand|checkPermission|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1428|1443|MinecraftServer|class|net.minecraft.server.MinecraftServer
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1452|1466|ICommandSender|class|net.minecraft.command.ICommandSender
+   Method End: checkPermission(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z
+   Method Start: getTabCompletions(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1577|1583|server|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|server|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1600|1606|sender|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|sender|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1617|1621|args|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|args|2
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1642|1651|targetPos|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|targetPos|3
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1510|1518|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1530|1534|List|class|java.util.List
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1535|1541|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1543|1560|getTabCompletions|method|net.minecraft.command.ICommand|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1561|1576|MinecraftServer|class|net.minecraft.server.MinecraftServer
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1585|1599|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1608|1614|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1624|1632|Nullable|class|javax.annotation.Nullable
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1633|1641|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: getTabCompletions(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+   Method Start: isUsernameIndex([Ljava/lang/String;I)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1741|1745|args|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|isUsernameIndex|([Ljava/lang/String;I)Z|args|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1751|1756|index|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|isUsernameIndex|([Ljava/lang/String;I)Z|index|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1688|1696|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1716|1731|isUsernameIndex|method|net.minecraft.command.ICommand|isUsernameIndex|([Ljava/lang/String;I)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1732|1738|String|class|java.lang.String
+   Method End: isUsernameIndex([Ljava/lang/String;I)Z
+   Method Start: compareTo(Lnet/minecraft/command/ICommand;)I
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1837|1838|o|param|com.thepowersss.ComboCounter.client.commands.CommandDisable|compareTo|(Lnet/minecraft/command/ICommand;)I|o|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1794|1802|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1818|1827|compareTo|method|java.lang.Comparable|compareTo|(Ljava/lang/Object;)I
+      @|com/thepowersss/ComboCounter/client/commands/CommandDisable.java|1828|1836|ICommand|class|net.minecraft.command.ICommand
+   Method End: compareTo(Lnet/minecraft/command/ICommand;)I
+Class End  : com.thepowersss.ComboCounter.client.commands.CommandDisable
+endProcessing "com/thepowersss/ComboCounter/client/commands/CommandDisable.java"
+
+startProcessing "com/thepowersss/ComboCounter/client/commands/CommandEnable.java" md5: 764ca443a618c91024eb8c4497b4efcd
+@|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|8|52|com.thepowersss.ComboCounter.client.commands|package|com.thepowersss.ComboCounter.client.commands|(file)
+Class Start: com.thepowersss.ComboCounter.client.commands.CommandEnable
+   @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|566|579|CommandEnable|class|com.thepowersss.ComboCounter.client.commands.CommandEnable
+   @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|591|599|ICommand|class|net.minecraft.command.ICommand
+   @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|626|632|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|621|625|List|class|java.util.List
+   @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|621|625|List|class|java.util.List
+   @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|626|632|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|634|641|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandEnable|aliases|
+   Method Start: CommandEnable()V
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|654|667|CommandEnable|method|com.thepowersss.ComboCounter.client.commands.CommandEnable|CommandEnable|()V
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|680|687|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandEnable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|694|703|ArrayList|class|java.util.ArrayList
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|717|724|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandEnable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|725|728|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|750|757|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandEnable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|758|761|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|778|785|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandEnable|aliases
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|786|789|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: CommandEnable()V
+   Method Start: getName()Ljava/lang/String;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|810|818|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|830|836|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|837|844|getName|method|net.minecraft.command.ICommand|getName|()Ljava/lang/String;
+   Method End: getName()Ljava/lang/String;
+   Method Start: getUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|939|945|sender|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|getUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|888|896|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|908|914|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|915|923|getUsage|method|net.minecraft.command.ICommand|getUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|924|938|ICommandSender|class|net.minecraft.command.ICommandSender
+   Method End: getUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getAliases()Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|988|996|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1008|1012|List|class|java.util.List
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1013|1019|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1021|1031|getAliases|method|net.minecraft.command.ICommand|getAliases|()Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1051|1058|aliases|field|com.thepowersss.ComboCounter.client.commands.CommandEnable|aliases
+   Method End: getAliases()Ljava/util/List;
+   Method Start: execute(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1121|1127|server|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|server|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1144|1150|sender|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1161|1165|args|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|2
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1072|1080|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1097|1104|execute|method|net.minecraft.command.ICommand|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1105|1120|MinecraftServer|class|net.minecraft.server.MinecraftServer
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1129|1143|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1152|1158|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1174|1190|CommandException|class|net.minecraft.command.CommandException
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1201|1215|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1216|1225|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1226|1234|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1235|1247|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1248|1255|HANDLER|field|com.thepowersss.ComboCounter.tab.ComboCounter|HANDLER
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1266|1275|Minecraft|class|net.minecraft.client.Minecraft
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1276|1288|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1291|1297|player|field|net.minecraft.client.Minecraft|player
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1298|1309|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1314|1333|TextComponentString|class|net.minecraft.util.text.TextComponentString
+   Method End: execute(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: checkPermission(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1434|1440|server|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|checkPermission|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z|server|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1457|1463|sender|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|checkPermission|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z|sender|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1374|1382|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1402|1417|checkPermission|method|net.minecraft.command.ICommand|checkPermission|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1418|1433|MinecraftServer|class|net.minecraft.server.MinecraftServer
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1442|1456|ICommandSender|class|net.minecraft.command.ICommandSender
+   Method End: checkPermission(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z
+   Method Start: getTabCompletions(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1567|1573|server|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|server|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1590|1596|sender|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|sender|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1607|1611|args|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|args|2
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1632|1641|targetPos|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|targetPos|3
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1500|1508|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1520|1524|List|class|java.util.List
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1525|1531|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1533|1550|getTabCompletions|method|net.minecraft.command.ICommand|getTabCompletions|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1551|1566|MinecraftServer|class|net.minecraft.server.MinecraftServer
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1575|1589|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1598|1604|String|class|java.lang.String
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1614|1622|Nullable|class|javax.annotation.Nullable
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1623|1631|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: getTabCompletions(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+   Method Start: isUsernameIndex([Ljava/lang/String;I)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1731|1735|args|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|isUsernameIndex|([Ljava/lang/String;I)Z|args|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1741|1746|index|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|isUsernameIndex|([Ljava/lang/String;I)Z|index|1
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1678|1686|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1706|1721|isUsernameIndex|method|net.minecraft.command.ICommand|isUsernameIndex|([Ljava/lang/String;I)Z
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1722|1728|String|class|java.lang.String
+   Method End: isUsernameIndex([Ljava/lang/String;I)Z
+   Method Start: compareTo(Lnet/minecraft/command/ICommand;)I
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1827|1828|o|param|com.thepowersss.ComboCounter.client.commands.CommandEnable|compareTo|(Lnet/minecraft/command/ICommand;)I|o|0
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1784|1792|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1808|1817|compareTo|method|java.lang.Comparable|compareTo|(Ljava/lang/Object;)I
+      @|com/thepowersss/ComboCounter/client/commands/CommandEnable.java|1818|1826|ICommand|class|net.minecraft.command.ICommand
+   Method End: compareTo(Lnet/minecraft/command/ICommand;)I
+Class End  : com.thepowersss.ComboCounter.client.commands.CommandEnable
+endProcessing "com/thepowersss/ComboCounter/client/commands/CommandEnable.java"
+
+startProcessing "com/thepowersss/ComboCounter/proxy/ClientProxy.java" md5: c3a51aa27fa56bb680b53718c05c66ed
+@|com/thepowersss/ComboCounter/proxy/ClientProxy.java|8|42|com.thepowersss.ComboCounter.proxy|package|com.thepowersss.ComboCounter.proxy|(file)
+Class Start: com.thepowersss.ComboCounter.proxy.ClientProxy
+   @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|267|278|ClientProxy|class|com.thepowersss.ComboCounter.proxy.ClientProxy
+   @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|287|298|CommonProxy|class|com.thepowersss.ComboCounter.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|366|371|event|param|com.thepowersss.ComboCounter.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|307|315|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|332|339|preInit|method|com.thepowersss.ComboCounter.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|340|365|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|441|446|event|param|com.thepowersss.ComboCounter.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|388|396|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|413|417|init|method|com.thepowersss.ComboCounter.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|418|440|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|524|529|event|param|com.thepowersss.ComboCounter.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|463|471|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|488|496|postInit|method|com.thepowersss.ComboCounter.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ClientProxy.java|497|523|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.thepowersss.ComboCounter.proxy.ClientProxy
+endProcessing "com/thepowersss/ComboCounter/proxy/ClientProxy.java"
+
+startProcessing "com/thepowersss/ComboCounter/proxy/CommonProxy.java" md5: b8e1364199328f5ac324852efa726c31
+@|com/thepowersss/ComboCounter/proxy/CommonProxy.java|8|42|com.thepowersss.ComboCounter.proxy|package|com.thepowersss.ComboCounter.proxy|(file)
+Class Start: com.thepowersss.ComboCounter.proxy.CommonProxy
+   @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|334|345|CommonProxy|class|com.thepowersss.ComboCounter.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|698|703|event|param|com.thepowersss.ComboCounter.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|664|671|preInit|method|com.thepowersss.ComboCounter.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|672|697|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1025|1030|event|param|com.thepowersss.ComboCounter.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|997|1001|init|method|com.thepowersss.ComboCounter.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1002|1024|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1406|1411|event|param|com.thepowersss.ComboCounter.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1370|1378|postInit|method|com.thepowersss.ComboCounter.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1379|1405|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: serverStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1595|1600|event|param|com.thepowersss.ComboCounter.proxy.CommonProxy|serverStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1557|1571|serverStarting|method|com.thepowersss.ComboCounter.proxy.CommonProxy|serverStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/CommonProxy.java|1572|1594|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent
+   Method End: serverStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+Class End  : com.thepowersss.ComboCounter.proxy.CommonProxy
+endProcessing "com/thepowersss/ComboCounter/proxy/CommonProxy.java"
+
+startProcessing "com/thepowersss/ComboCounter/proxy/ServerProxy.java" md5: 3bfc923ab4b2d509145c13229a2a0828
+@|com/thepowersss/ComboCounter/proxy/ServerProxy.java|8|42|com.thepowersss.ComboCounter.proxy|package|com.thepowersss.ComboCounter.proxy|(file)
+Class Start: com.thepowersss.ComboCounter.proxy.ServerProxy
+   @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|334|345|ServerProxy|class|com.thepowersss.ComboCounter.proxy.ServerProxy
+   @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|354|365|CommonProxy|class|com.thepowersss.ComboCounter.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|432|437|event|param|com.thepowersss.ComboCounter.proxy.ServerProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|373|381|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|398|405|preInit|method|com.thepowersss.ComboCounter.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|406|431|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|506|511|event|param|com.thepowersss.ComboCounter.proxy.ServerProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|453|461|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|478|482|init|method|com.thepowersss.ComboCounter.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|483|505|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|588|593|event|param|com.thepowersss.ComboCounter.proxy.ServerProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|527|535|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|552|560|postInit|method|com.thepowersss.ComboCounter.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|561|587|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: serverStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|672|677|event|param|com.thepowersss.ComboCounter.proxy.ServerProxy|serverStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|609|617|Override|class|java.lang.Override
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|634|648|serverStarting|method|com.thepowersss.ComboCounter.proxy.CommonProxy|serverStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/thepowersss/ComboCounter/proxy/ServerProxy.java|649|671|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent
+   Method End: serverStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+Class End  : com.thepowersss.ComboCounter.proxy.ServerProxy
+endProcessing "com/thepowersss/ComboCounter/proxy/ServerProxy.java"
+
+startProcessing "com/thepowersss/ComboCounter/tab/ComboCounter.java" md5: e7e11eef6f237206b885b7167d3d4a3a
+@|com/thepowersss/ComboCounter/tab/ComboCounter.java|8|40|com.thepowersss.ComboCounter.tab|package|com.thepowersss.ComboCounter.tab|(file)
+Class Start: com.thepowersss.ComboCounter.tab.ComboCounter
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|671|674|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|675|680|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|683|692|Reference|class|com.thepowersss.ComboCounter.util.Reference
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|693|699|MOD_ID|field|com.thepowersss.ComboCounter.util.Reference|MOD_ID
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|701|705|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|708|717|Reference|class|com.thepowersss.ComboCounter.util.Reference
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|718|722|NAME|field|com.thepowersss.ComboCounter.util.Reference|NAME
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|724|731|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|734|743|Reference|class|com.thepowersss.ComboCounter.util.Reference
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|744|751|VERSION|field|com.thepowersss.ComboCounter.util.Reference|VERSION
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|766|778|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|814|826|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|787|795|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|814|826|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|827|835|instance|field|com.thepowersss.ComboCounter.tab.ComboCounter|instance|
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|860|864|hits|field|com.thepowersss.ComboCounter.tab.ComboCounter|hits|
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|991|1002|CommonProxy|class|com.thepowersss.ComboCounter.proxy.CommonProxy
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|876|886|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|887|897|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|900|909|Reference|class|com.thepowersss.ComboCounter.util.Reference
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|910|928|CLIENT_PROXY_CLASS|field|com.thepowersss.ComboCounter.util.Reference|CLIENT_PROXY_CLASS
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|930|940|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|943|952|Reference|class|com.thepowersss.ComboCounter.util.Reference
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|953|971|COMMON_PROXY_CLASS|field|com.thepowersss.ComboCounter.util.Reference|COMMON_PROXY_CLASS
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|991|1002|CommonProxy|class|com.thepowersss.ComboCounter.proxy.CommonProxy
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1003|1008|proxy|field|com.thepowersss.ComboCounter.tab.ComboCounter|proxy|
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1034|1058|ComboCounterEventHandler|class|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1034|1058|ComboCounterEventHandler|class|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1059|1066|HANDLER|field|com.thepowersss.ComboCounter.tab.ComboCounter|HANDLER|
+   @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1073|1097|ComboCounterEventHandler|class|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1177|1182|event|param|com.thepowersss.ComboCounter.tab.ComboCounter|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1107|1119|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1143|1150|PreInit|method|com.thepowersss.ComboCounter.tab.ComboCounter|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1151|1176|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1266|1271|event|param|com.thepowersss.ComboCounter.tab.ComboCounter|Init|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1199|1211|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1235|1239|Init|method|com.thepowersss.ComboCounter.tab.ComboCounter|Init|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1240|1265|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1359|1364|event|param|com.thepowersss.ComboCounter.tab.ComboCounter|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1288|1300|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1324|1332|PostInit|method|com.thepowersss.ComboCounter.tab.ComboCounter|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1333|1358|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1376|1390|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1391|1400|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1401|1409|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1410|1417|HANDLER|field|com.thepowersss.ComboCounter.tab.ComboCounter|HANDLER
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: resetHits()V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1450|1459|resetHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|resetHits|()V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1472|1476|hits|field|com.thepowersss.ComboCounter.tab.ComboCounter|hits
+   Method End: resetHits()V
+   Method Start: incrementHits()V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1512|1525|incrementHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|incrementHits|()V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1538|1542|hits|field|com.thepowersss.ComboCounter.tab.ComboCounter|hits
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1554|1560|System|class|java.lang.System
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1561|1564|out|field|java.lang.System|out
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1565|1572|println|method|java.io.PrintStream|println|(I)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1573|1577|hits|field|com.thepowersss.ComboCounter.tab.ComboCounter|hits
+   Method End: incrementHits()V
+   Method Start: getHits()I
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1609|1616|getHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|getHits|()I
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1636|1640|hits|field|com.thepowersss.ComboCounter.tab.ComboCounter|hits
+   Method End: getHits()I
+   Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1717|1722|event|param|com.thepowersss.ComboCounter.tab.ComboCounter|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1654|1666|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1683|1693|serverLoad|method|com.thepowersss.ComboCounter.tab.ComboCounter|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1694|1716|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1775|1780|event|param|com.thepowersss.ComboCounter.tab.ComboCounter|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1781|1802|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1807|1820|CommandEnable|class|com.thepowersss.ComboCounter.client.commands.CommandEnable
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1833|1838|event|param|com.thepowersss.ComboCounter.tab.ComboCounter|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1839|1860|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1865|1879|CommandDisable|class|com.thepowersss.ComboCounter.client.commands.CommandDisable
+   Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+   Method Start: disable()V
+      @|com/thepowersss/ComboCounter/tab/ComboCounter.java|1914|1921|disable|method|com.thepowersss.ComboCounter.tab.ComboCounter|disable|()V
+   Method End: disable()V
+Class End  : com.thepowersss.ComboCounter.tab.ComboCounter
+endProcessing "com/thepowersss/ComboCounter/tab/ComboCounter.java"
+
+startProcessing "com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java" md5: d20df5a5c5e396fd647e2bb06d6e87ba
+@|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|8|40|com.thepowersss.ComboCounter.tab|package|com.thepowersss.ComboCounter.tab|(file)
+Class Start: com.thepowersss.ComboCounter.tab.ComboCounterEventHandler
+   @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|509|533|ComboCounterEventHandler|class|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler
+   @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|553|564|ticksPassed|field|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|ticksPassed|
+   Method Start: livingHurt(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|661|666|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|576|590|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|596|604|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|605|609|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|610|616|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|634|644|livingHurt|method|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|645|660|LivingHurtEvent|class|net.minecraftforge.event.entity.living.LivingHurtEvent
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|682|687|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|688|697|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|700|706|equals|method|net.minecraft.entity.Entity|equals|(Ljava/lang/Object;)Z
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|707|716|Minecraft|class|net.minecraft.client.Minecraft
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|717|729|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|732|738|player|field|net.minecraft.client.Minecraft|player
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|761|766|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|767|776|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|779|797|getImmediateSource|method|net.minecraft.util.DamageSource|getImmediateSource|()Lnet/minecraft/entity/Entity;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|800|806|equals|method|net.minecraft.entity.Entity|equals|(Ljava/lang/Object;)Z
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|807|819|DamageSource|class|net.minecraft.util.DamageSource
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|820|824|FALL|field|net.minecraft.util.DamageSource|FALL
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|831|836|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|837|846|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|849|862|getTrueSource|method|net.minecraft.util.DamageSource|getTrueSource|()Lnet/minecraft/entity/Entity;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|876|882|Entity|class|net.minecraft.entity.Entity
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|907|919|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|920|927|getHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|getHits|()I
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|956|965|Minecraft|class|net.minecraft.client.Minecraft
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|966|978|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|981|987|player|field|net.minecraft.client.Minecraft|player
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|988|1005|sendStatusMessage|method|net.minecraft.entity.player.EntityPlayer|sendStatusMessage|(Lnet/minecraft/util/text/ITextComponent;Z)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1010|1029|TextComponentString|class|net.minecraft.util.text.TextComponentString
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1036|1048|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1049|1056|getHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|getHits|()I
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1101|1113|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1114|1123|resetHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|resetHits|()V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1168|1173|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1174|1183|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1197|1203|Entity|class|net.minecraft.entity.Entity
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1256|1261|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1262|1271|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1274|1287|getTrueSource|method|net.minecraft.util.DamageSource|getTrueSource|()Lnet/minecraft/entity/Entity;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1301|1306|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1307|1316|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1319|1332|getTrueSource|method|net.minecraft.util.DamageSource|getTrueSource|()Lnet/minecraft/entity/Entity;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1335|1341|equals|method|net.minecraft.entity.Entity|equals|(Ljava/lang/Object;)Z
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1342|1351|Minecraft|class|net.minecraft.client.Minecraft
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1352|1364|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1367|1373|player|field|net.minecraft.client.Minecraft|player
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1398|1403|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1404|1413|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1419|1431|DamageSource|class|net.minecraft.util.DamageSource
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1432|1439|ON_FIRE|field|net.minecraft.util.DamageSource|ON_FIRE
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1443|1448|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1449|1458|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1464|1476|DamageSource|class|net.minecraft.util.DamageSource
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1477|1482|MAGIC|field|net.minecraft.util.DamageSource|MAGIC
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1486|1491|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|livingHurt|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1492|1501|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1507|1519|DamageSource|class|net.minecraft.util.DamageSource
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1520|1526|STARVE|field|net.minecraft.util.DamageSource|STARVE
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1548|1560|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1561|1574|incrementHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|incrementHits|()V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1598|1609|ticksPassed|field|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|ticksPassed
+   Method End: livingHurt(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V
+   Method Start: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1748|1753|event|param|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1651|1665|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1671|1679|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1680|1684|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1685|1691|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1709|1721|onClientTick|method|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1722|1747|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1765|1776|ticksPassed|field|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|ticksPassed
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1792|1803|ticksPassed|field|com.thepowersss.ComboCounter.tab.ComboCounterEventHandler|ticksPassed
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1834|1843|Minecraft|class|net.minecraft.client.Minecraft
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1844|1856|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1859|1865|player|field|net.minecraft.client.Minecraft|player
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1897|1909|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1910|1917|getHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|getHits|()I
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1946|1955|Minecraft|class|net.minecraft.client.Minecraft
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1956|1968|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1971|1977|player|field|net.minecraft.client.Minecraft|player
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|1978|1995|sendStatusMessage|method|net.minecraft.entity.player.EntityPlayer|sendStatusMessage|(Lnet/minecraft/util/text/ITextComponent;Z)V
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|2000|2019|TextComponentString|class|net.minecraft.util.text.TextComponentString
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|2026|2038|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|2039|2046|getHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|getHits|()I
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|2091|2103|ComboCounter|class|com.thepowersss.ComboCounter.tab.ComboCounter
+      @|com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java|2104|2113|resetHits|method|com.thepowersss.ComboCounter.tab.ComboCounter|resetHits|()V
+   Method End: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+Class End  : com.thepowersss.ComboCounter.tab.ComboCounterEventHandler
+endProcessing "com/thepowersss/ComboCounter/tab/ComboCounterEventHandler.java"
+
+startProcessing "com/thepowersss/ComboCounter/util/Reference.java" md5: 5f4ab9380bc5df8072a1b6a6d594afaa
+@|com/thepowersss/ComboCounter/util/Reference.java|8|41|com.thepowersss.ComboCounter.util|package|com.thepowersss.ComboCounter.util|(file)
+Class Start: com.thepowersss.ComboCounter.util.Reference
+   @|com/thepowersss/ComboCounter/util/Reference.java|57|66|Reference|class|com.thepowersss.ComboCounter.util.Reference
+   @|com/thepowersss/ComboCounter/util/Reference.java|94|100|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|94|100|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|101|107|MOD_ID|field|com.thepowersss.ComboCounter.util.Reference|MOD_ID|
+   @|com/thepowersss/ComboCounter/util/Reference.java|140|146|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|140|146|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|147|151|NAME|field|com.thepowersss.ComboCounter.util.Reference|NAME|
+   @|com/thepowersss/ComboCounter/util/Reference.java|195|201|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|195|201|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|202|209|VERSION|field|com.thepowersss.ComboCounter.util.Reference|VERSION|
+   @|com/thepowersss/ComboCounter/util/Reference.java|243|249|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|243|249|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|250|267|ACCEPTED_VERSIONS|field|com.thepowersss.ComboCounter.util.Reference|ACCEPTED_VERSIONS|
+   @|com/thepowersss/ComboCounter/util/Reference.java|304|310|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|304|310|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|311|329|CLIENT_PROXY_CLASS|field|com.thepowersss.ComboCounter.util.Reference|CLIENT_PROXY_CLASS|
+   @|com/thepowersss/ComboCounter/util/Reference.java|406|412|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|406|412|String|class|java.lang.String
+   @|com/thepowersss/ComboCounter/util/Reference.java|413|431|COMMON_PROXY_CLASS|field|com.thepowersss.ComboCounter.util.Reference|COMMON_PROXY_CLASS|
+Class End  : com.thepowersss.ComboCounter.util.Reference
+endProcessing "com/thepowersss/ComboCounter/util/Reference.java"
+
